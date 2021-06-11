@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
+nav{
+  color: whitesmoke;
+  width: 100vw;
+  background-color: #757575;
+  display: flex;
+  justify-content: space-between;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav ul li {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
+  width: 90%;
+  margin: 10px 5%;
+  padding-top: 10px;
+}
+
+.card{
+  background-color: #eeeeee;
+  box-sizing: border-box;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.card-content{
+  padding: 30px;
+}
+
+.row{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-12{
+  width: 100%;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+
+.col-6{
+  width: 50%;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+
+.col-3{
+  width: 25%;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+
+/*  */
+
+.input-group{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: 10px 0;
+}
+
+.input-group input{
+  height: 28px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 0 20px;
+  border: 1.5px solid blue;
+}
+
+.btn{
+  width: 100px;
+  height: 30px;
+  border: 2px solid rgb(159, 187, 187);
+  background-color: blue;
+  border-radius: 10px;
+  margin: 10px 0;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.table{
+  display: flex;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+table{
+ width: 100%;
+ border-collapse: collapse;
 }
+
+tr{
+  text-align: center;
+  border-bottom: 1px solid black ;
+  border-collapse: colapse;
+}
+
+th{
+  padding: 10px 50px; 
+  border-bottom: 1px solid black ;
+  border-collapse: colapse;
+}
+
+td{
+   padding: 10px 50px; 
+  border-bottom: 1px solid black ;
+}
+
